@@ -6,22 +6,19 @@ const testimonials = [
     id: 1,
     quote: "CodeCraft transformed our outdated website into a modern platform that perfectly represents our brand. The team's attention to detail and technical expertise exceeded our expectations.",
     author: "Jennifer Lee",
-    position: "CEO, TechInnovate",
-    image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    position: "CEO, TechInnovate"
   },
   {
     id: 2,
     quote: "Working with this team was a game-changer for our e-commerce business. Our online sales increased by 45% within three months of launching the new website.",
     author: "Michael Rodriguez",
-    position: "Founder, EcoStore",
-    image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    position: "Founder, EcoStore"
   },
   {
     id: 3,
     quote: "The custom web application developed by CodeCraft streamlined our internal processes and saved us countless hours of manual work. Their solution was elegant and intuitive.",
     author: "Sarah Johnson",
-    position: "Operations Director, HealthPlus",
-    image: "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    position: "Operations Director, HealthPlus"
   }
 ];
 
@@ -59,16 +56,9 @@ const Testimonials = () => {
                   "{currentTestimonial.quote}"
                 </p>
                 
-                <div className="flex items-center">
-                  <img 
-                    src={currentTestimonial.image} 
-                    alt={currentTestimonial.author} 
-                    className="w-14 h-14 rounded-full object-cover mr-4"
-                  />
-                  <div>
-                    <h4 className="font-bold text-lg">{currentTestimonial.author}</h4>
-                    <p className="text-indigo-300">{currentTestimonial.position}</p>
-                  </div>
+                <div>
+                  <h4 className="font-bold text-lg">{currentTestimonial.author}</h4>
+                  <p className="text-indigo-300">{currentTestimonial.position}</p>
                 </div>
               </div>
               
