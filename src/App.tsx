@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
@@ -46,6 +47,7 @@ function App() {
             <Hero />
             <Services />
             <Portfolio />
+            <Pricing />
             <Testimonials />
             <Blog />
             <Contact />
@@ -56,5 +58,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
