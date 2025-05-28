@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -19,16 +21,30 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Here you would typically send the form data to your backend
-    alert('Thanks for your message! We will get back to you soon.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
-    });
+
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      phone: formData.phone,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    emailjs.send('service_itucob8', 'template_3l6pkbt', templateParams, 'pWMBy-2IdoxD5XMcF')
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Thanks for your message! We will get back to you soon.');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: ''
+        });
+      }, (err) => {
+        console.error('FAILED...', err);
+        alert('Oops! Something went wrong. Please try again later.');
+      });
   };
 
   return (
