@@ -152,7 +152,6 @@ const Contact = () => {
                     <option value="">Select a subject</option>
                     <option value="Web Development">Web Development</option>
                     <option value="UI/UX Design">Graphic Design</option>
-                    <option value="E-commerce">E-commerce</option>
                     <option value="Consultation">Consultation</option>
                     <option value="Other">Other</option>
                   </select>
