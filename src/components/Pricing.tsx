@@ -38,7 +38,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center text-navy-700">
                   <Check className="h-5 w-5 text-navy-600 mr-2" />
-                  <span>Basic SEO Setup</span>
+                  <span>Map feature</span>
                 </li>
               </ul>
               <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105">
