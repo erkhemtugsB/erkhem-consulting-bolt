@@ -60,8 +60,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Email Us</h3>
-                <p className="text-gray-600">hello@erkhem.com</p>
-                <p className="text-gray-600">support@erkhem.com</p>
+                <p className="text-gray-600">erkhemconsulting@gmail.com</p>
+                {/* <p className="text-gray-600">support@erkhem.com</p> */}
               </div>
             </div>
             
@@ -72,7 +72,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Call Us</h3>
                 <p className="text-gray-600">+1 (555) 123-4567</p>
-                <p className="text-gray-600">+1 (555) 765-4321</p>
+                {/* <p className="text-gray-600">+1 (555) 765-4321</p> */}
               </div>
             </div>
             
@@ -151,7 +151,7 @@ const Contact = () => {
                   >
                     <option value="">Select a subject</option>
                     <option value="Web Development">Web Development</option>
-                    <option value="UI/UX Design">UI/UX Design</option>
+                    <option value="UI/UX Design">Graphic Design</option>
                     <option value="E-commerce">E-commerce</option>
                     <option value="Consultation">Consultation</option>
                     <option value="Other">Other</option>
