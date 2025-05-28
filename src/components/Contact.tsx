@@ -45,13 +45,13 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="col-span-1 space-y-6">
             <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 p-3 rounded-lg text-indigo-600">
+              {/* <div className="bg-indigo-100 p-3 rounded-lg text-indigo-600">
                 <MapPin className="h-6 w-6" />
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Our Location</h3>
                 <p className="text-gray-600">123 Tech Boulevard, San Francisco, CA 94105</p>
-              </div>
+              </div> */}
             </div>
             
             <div className="flex items-start space-x-4">
