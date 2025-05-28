@@ -16,26 +16,26 @@ const services = [
     title: 'UI/UX Design',
     description: 'User-centered design focused on creating intuitive and engaging digital experiences.'
   },
-  {
-    icon: <Globe className="h-8 w-8 text-indigo-600" />,
-    title: 'E-commerce Solutions',
-    description: 'Scalable online stores that drive sales and provide seamless shopping experiences.'
-  },
-  {
-    icon: <Layers className="h-8 w-8 text-indigo-600" />,
-    title: 'Frontend Development',
-    description: 'Responsive and interactive user interfaces built with modern frameworks and technologies.'
-  },
-  {
-    icon: <Database className="h-8 w-8 text-indigo-600" />,
-    title: 'Backend Development',
-    description: 'Robust server-side applications and APIs that power your digital products.'
-  },
-  {
-    icon: <Search className="h-8 w-8 text-indigo-600" />,
-    title: 'SEO Optimization',
-    description: 'Strategies to improve your search engine rankings and drive organic traffic.'
-  },
+  // {
+  //   icon: <Globe className="h-8 w-8 text-indigo-600" />,
+  //   title: 'E-commerce Solutions',
+  //   description: 'Scalable online stores that drive sales and provide seamless shopping experiences.'
+  // },
+  // {
+  //   icon: <Layers className="h-8 w-8 text-indigo-600" />,
+  //   title: 'Frontend Development',
+  //   description: 'Responsive and interactive user interfaces built with modern frameworks and technologies.'
+  // },
+  // {
+  //   icon: <Database className="h-8 w-8 text-indigo-600" />,
+  //   title: 'Backend Development',
+  //   description: 'Robust server-side applications and APIs that power your digital products.'
+  // },
+  // {
+  //   icon: <Search className="h-8 w-8 text-indigo-600" />,
+  //   title: 'SEO Optimization',
+  //   description: 'Strategies to improve your search engine rankings and drive organic traffic.'
+  // },
   {
     icon: <Zap className="h-8 w-8 text-indigo-600" />,
     title: 'Performance Optimization',

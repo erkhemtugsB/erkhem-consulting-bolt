@@ -15,18 +15,18 @@ const Footer = () => {
               We craft exceptional web experiences that drive growth and deliver results for businesses of all sizes.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
+              {/* <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Twitter className="h-5 w-5" />
-              </a>
+              </a> */}
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
+              {/* <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
-              </a>
+              </a> */}
             </div>
           </div>
           
@@ -35,9 +35,9 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">Custom Web Development</a></li>
               <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">UI/UX Design</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">E-commerce Solutions</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">E-commerce Solutions</a></li> */}
               <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">Digital Strategy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">SEO Optimization</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">SEO Optimization</a></li> */}
             </ul>
           </div>
           
@@ -46,9 +46,9 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#home" className="text-gray-400 hover:text-navy-400 transition-colors">Home</a></li>
               <li><a href="#services" className="text-gray-400 hover:text-navy-400 transition-colors">Services</a></li>
-              <li><a href="#portfolio" className="text-gray-400 hover:text-navy-400 transition-colors">Portfolio</a></li>
+              {/* <li><a href="#portfolio" className="text-gray-400 hover:text-navy-400 transition-colors">Portfolio</a></li> */}
               <li><a href="#pricing" className="text-gray-400 hover:text-navy-400 transition-colors">Pricing</a></li>
-              <li><a href="#blog" className="text-gray-400 hover:text-navy-400 transition-colors">Blog</a></li>
+              {/* <li><a href="#blog" className="text-gray-400 hover:text-navy-400 transition-colors">Blog</a></li> */}
               <li><a href="#contact" className="text-gray-400 hover:text-navy-400 transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ const Footer = () => {
           <div className="flex space-x-6">
             <Link to="/privacy-policy" className="hover:text-navy-400 transition-colors">Privacy Policy</Link>
             <Link to="/terms-conditions" className="hover:text-navy-400 transition-colors">Terms of Service</Link>
-            <a href="#" className="hover:text-navy-400 transition-colors">Cookie Policy</a>
+            {/* <a href="#" className="hover:text-navy-400 transition-colors">Cookie Policy</a> */}
           </div>
         </div>
       </div>

@@ -16,16 +16,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
-      }`}
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        }`}
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="flex items-center text-xl font-bold text-indigo-900"
             >
               <Code className="h-6 w-6 mr-2 text-indigo-600" strokeWidth={2.5} />
@@ -37,13 +36,12 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-8">
-            {['Home', 'Services', 'Portfolio', 'Team', 'Testimonials', 'Blog', 'Contact'].map((item) => (
+            {['Home', 'Services', 'Testimonials', 'Contact'].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
-                  className={`transition-colors duration-300 hover:text-indigo-600 ${
-                    isScrolled ? 'text-gray-700' : 'text-white'
-                  }`}
+                  className={`transition-colors duration-300 hover:text-indigo-600 ${isScrolled ? 'text-gray-700' : 'text-white'
+                    }`}
                 >
                   {item}
                 </a>
@@ -69,7 +67,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-4 space-y-1 bg-white rounded-lg mt-2 shadow-lg">
-              {['Home', 'Services', 'Portfolio', 'Team', 'Testimonials', 'Blog', 'Contact'].map((item) => (
+              {['Home', 'Services', 'Testimonials', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}

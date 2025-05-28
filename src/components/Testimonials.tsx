@@ -4,9 +4,9 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    quote: "CodeCraft transformed our outdated website into a modern platform that perfectly represents our brand. The team's attention to detail and technical expertise exceeded our expectations.",
+    quote: "Erkhem Consulting transformed our outdated website into a modern platform that perfectly represents our brand. The team's attention to detail and technical expertise exceeded our expectations.",
     author: "Jennifer Lee",
-    position: "CEO, TechInnovate"
+    position: "Founder, NailPlus"
   },
   {
     id: 2,
@@ -16,9 +16,9 @@ const testimonials = [
   },
   {
     id: 3,
-    quote: "The custom web application developed by CodeCraft streamlined our internal processes and saved us countless hours of manual work. Their solution was elegant and intuitive.",
+    quote: "The custom web application developed by Erkhem Consulting streamlined our internal processes and saved us countless hours of manual work. Their solution was elegant and intuitive.",
     author: "Sarah Johnson",
-    position: "Operations Director, HealthPlus"
+    position: "Operations Director, HealthFirst Med"
   }
 ];
 

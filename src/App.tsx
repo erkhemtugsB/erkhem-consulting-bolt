@@ -46,10 +46,10 @@ function App() {
             <Navbar />
             <Hero />
             <Services />
-            <Portfolio />
+            {/* <Portfolio /> */}
             <Pricing />
             <Testimonials />
-            <Blog />
+            {/* <Blog /> */}
             <Contact />
             <Footer />
           </div>
