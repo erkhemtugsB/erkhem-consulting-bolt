@@ -18,12 +18,12 @@ const Footer = () => {
               {/* <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a> */}
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
+              <a href="https://www.facebook.com/telmuun.narankhuu.1" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
+              {/* <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Instagram className="h-5 w-5" />
-              </a>
+              </a> */}
               {/* <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-navy-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a> */}
@@ -34,7 +34,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Services</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">Custom Web Development</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">UI/UX Design</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">Graphic Design</a></li>
               {/* <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">E-commerce Solutions</a></li> */}
               <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">Digital Strategy</a></li>
               {/* <li><a href="#" className="text-gray-400 hover:text-navy-400 transition-colors">SEO Optimization</a></li> */}

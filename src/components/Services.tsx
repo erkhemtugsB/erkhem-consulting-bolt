@@ -13,7 +13,7 @@ const services = [
   },
   {
     icon: <Layout className="h-8 w-8 text-indigo-600" />,
-    title: 'UI/UX Design',
+    title: 'Graphic Design',
     description: 'User-centered design focused on creating intuitive and engaging digital experiences.'
   },
   // {
