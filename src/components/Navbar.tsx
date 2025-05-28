@@ -36,7 +36,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-8">
-            {['Home', 'Services', 'Testimonials', 'Contact'].map((item) => (
+            {['Home', 'Services', 'Pricing', 'Contact'].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
@@ -67,7 +67,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-4 space-y-1 bg-white rounded-lg mt-2 shadow-lg">
-              {['Home', 'Services', 'Testimonials', 'Contact'].map((item) => (
+              {['Home', 'Services', 'Pricing', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
