@@ -40,10 +40,10 @@ const Hero = () => {
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
-              href="#portfolio" 
+              href="tel:+16306355294" 
               className="px-8 py-4 bg-transparent border border-blue-300 text-white font-medium rounded-lg hover:bg-blue-900/30 transition-all flex items-center justify-center"
             >
-              View Our Work
+              Call Us
             </a>
           </div>
         </div>
