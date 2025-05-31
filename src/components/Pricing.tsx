@@ -20,7 +20,7 @@ const Pricing = () => {
             </div>
             <div className="pt-4">
               <div className="flex items-baseline justify-center mb-8">
-                <span className="text-5xl font-bold text-navy-600">$200</span>
+                <span className="text-5xl font-bold text-navy-600">$199</span>
                 <span className="text-navy-400 ml-2">+ domain</span>
               </div>
               <ul className="space-y-4 mb-8">
@@ -54,7 +54,7 @@ const Pricing = () => {
             </div>
             <div className="pt-4">
               <div className="flex items-baseline justify-center mb-8">
-                <span className="text-5xl font-bold text-navy-600">$350</span>
+                <span className="text-5xl font-bold text-navy-600">$349</span>
                 <span className="text-navy-400 ml-2">+ domain</span>
               </div>
               <ul className="space-y-4 mb-8">
@@ -64,11 +64,11 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center text-navy-700">
                   <Check className="h-5 w-5 text-navy-600 mr-2" />
-                  <span>Booking System</span>
+                  <span>Booking System Integration</span>
                 </li>
                 <li className="flex items-center text-navy-700">
                   <Check className="h-5 w-5 text-navy-600 mr-2" />
-                  <span>Appointment Scheduling</span>
+                  <span>Up to 6 pages</span>
                 </li>
                 <li className="flex items-center text-navy-700">
                   <Check className="h-5 w-5 text-navy-600 mr-2" />
@@ -88,7 +88,7 @@ const Pricing = () => {
             </div>
             <div className="pt-4">
               <div className="flex items-baseline justify-center mb-8">
-                <span className="text-5xl font-bold text-navy-600">$500</span>
+                <span className="text-5xl font-bold text-navy-600">$499+</span>
                 <span className="text-navy-400 ml-2">+ domain</span>
               </div>
               <ul className="space-y-4 mb-8">
@@ -102,7 +102,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center text-navy-700">
                   <Check className="h-5 w-5 text-navy-600 mr-2" />
-                  <span>Personal Appointment System</span>
+                  <span>Google Maps setup + Professional Email</span>
                 </li>
                 <li className="flex items-center text-navy-700">
                   <Check className="h-5 w-5 text-navy-600 mr-2" />
