@@ -41,9 +41,14 @@ const Pricing = () => {
                   <span>Map feature</span>
                 </li>
               </ul>
-              <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
+              <a
+                href="#contact"
+                className="w-full block"
+              >
+                <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105">
+                  Get Started
+                </button>
+              </a>
             </div>
           </div>
 
@@ -75,9 +80,14 @@ const Pricing = () => {
                   <span>Quote Form Integration</span>
                 </li>
               </ul>
-              <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105 ring-4 ring-navy-200">
-                Get Started
-              </button>
+              <a
+                href="#contact"
+                className="w-full block"
+              >
+                <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105 ring-4 ring-navy-200">
+                  Get Started
+                </button>
+              </a>
             </div>
           </div>
 
@@ -109,9 +119,14 @@ const Pricing = () => {
                   <span>Multiple Pages</span>
                 </li>
               </ul>
-              <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
+              <a
+                href="#contact"
+                className="w-full block"
+              >
+                <button className="w-full py-4 px-6 rounded-lg bg-navy-600 text-white font-medium hover:bg-navy-700 transition-all duration-300 transform hover:scale-105">
+                  Get Started
+                </button>
+              </a>
             </div>
           </div>
         </div>
