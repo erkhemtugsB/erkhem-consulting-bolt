@@ -87,12 +87,16 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Call Us</h3>
-                <p className="text-gray-600">+1 (630) 635-5294</p>
+                <p className="text-gray-600">
+                  <a href="tel:+16306355294" className="hover:underline">
+                    +1 (630) 635-5294
+                  </a>
+                </p>
                 {/* <p className="text-gray-600">+1 (555) 765-4321</p> */}
               </div>
             </div>
             
-            <div className="bg-indigo-50 p-6 rounded-xl">
+            {/* <div className="bg-indigo-50 p-6 rounded-xl">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Office Hours</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex justify-between">
@@ -108,7 +112,7 @@ const Contact = () => {
                   <span>Closed</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           
           <div className="col-span-1 lg:col-span-2">
