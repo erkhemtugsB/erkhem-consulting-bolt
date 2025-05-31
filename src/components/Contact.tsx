@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -52,7 +51,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <div className="h-1 w-24 bg-indigo-600 mx-auto mb-6"></div>
+          <div className="h-1 w-24 bg-navy-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600">
             Have a project in mind or want to learn more about our services? Reach out to us today.
           </p>
@@ -61,38 +60,26 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="col-span-1 space-y-6">
             <div className="flex items-start space-x-4">
-              {/* <div className="bg-indigo-100 p-3 rounded-lg text-indigo-600">
-                <MapPin className="h-6 w-6" />
-              </div> */}
-              {/* <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">Our Location</h3>
-                <p className="text-gray-600">123 Tech Boulevard, San Francisco, CA 94105</p>
-              </div> */}
-            </div>
-            
-            <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 p-3 rounded-lg text-indigo-600">
+              <div className="bg-navy-100 p-3 rounded-lg text-navy-600">
                 <Mail className="h-6 w-6" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Email Us</h3>
                 <p className="text-gray-600">erkhemconsulting@gmail.com</p>
-                {/* <p className="text-gray-600">support@erkhem.com</p> */}
               </div>
             </div>
             
             <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 p-3 rounded-lg text-indigo-600">
+              <div className="bg-navy-100 p-3 rounded-lg text-navy-600">
                 <Phone className="h-6 w-6" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Call Us</h3>
                 <p className="text-gray-600">+1 (555) 123-4567</p>
-                {/* <p className="text-gray-600">+1 (555) 765-4321</p> */}
               </div>
             </div>
             
-            <div className="bg-indigo-50 p-6 rounded-xl">
+            <div className="bg-navy-50 p-6 rounded-xl">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Office Hours</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex justify-between">
@@ -123,7 +110,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy-600 focus:border-navy-600"
                     placeholder="John Doe"
                   />
                 </div>
@@ -137,7 +124,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy-600 focus:border-navy-600"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -150,7 +137,7 @@ const Contact = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy-600 focus:border-navy-600"
                     placeholder="+1 (555) 123-4567"
                   />
                 </div>
@@ -163,7 +150,7 @@ const Contact = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy-600 focus:border-navy-600"
                   >
                     <option value="">Select a subject</option>
                     <option value="Web Development">Web Development</option>
@@ -183,14 +170,14 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy-600 focus:border-navy-600"
                   placeholder="Tell us about your project..."
                 ></textarea>
               </div>
               
               <button
                 type="submit"
-                className="w-full px-6 py-4 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2"
+                className="w-full px-6 py-4 bg-navy-600 text-white font-medium rounded-lg hover:bg-navy-700 transition-colors flex items-center justify-center gap-2"
               >
                 Send Message <Send className="h-5 w-5" />
               </button>
