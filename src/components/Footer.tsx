@@ -58,7 +58,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <div className="mb-4 md:mb-0">
-            © 2025 Erkhem Consulting. All rights reserved.
+            © 2026 Erkhem Consulting. All rights reserved.
           </div>
           <div className="flex space-x-6">
             {/* <Link to="/privacy-policy" className="hover:text-navy-400 transition-colors">Privacy Policy</Link> */}
